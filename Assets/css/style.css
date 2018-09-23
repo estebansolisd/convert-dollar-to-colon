@@ -1,0 +1,46 @@
+body{
+    background: url('../img/theme.png');
+}
+#cmbOne,#cmbTwo,#container-input, #to, #h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 13vh;
+}
+#container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttons, #inputOne, #inputTwo,#number-input,#convert-button{
+    min-width: 35vw !important;
+}
+.buttons{
+    border-radius: 0% !important;
+}
+#inputOne, #inputTwo{
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#convert{
+    padding-top: 8vh;
+}
+#convert-button{
+    font-weight: bolder;
+}
+.result{
+    padding-top: 3vh;
+}
+#h{
+    font-size: 3vh;
+}
+h1{
+    text-align: center;
+    font-size: 5vh;
+}
