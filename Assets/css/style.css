@@ -1,11 +1,16 @@
 body{
     background: url('../img/theme.png');
 }
-#cmbOne,#cmbTwo,#container-input, #to, #h1{
+#cmbOne,#cmbTwo,#container-input, #to, #h{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 13vh;
+}
+#convert{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #container{
     display: flex;
