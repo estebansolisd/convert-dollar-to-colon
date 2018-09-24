@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.buttons, #inputOne, #inputTwo,#number-input,#convert-button{
+.buttons, #inputOne, #inputTwo,#number-input,#convert-button,#resulted{
     min-width: 35vw !important;
 }
 .buttons{
